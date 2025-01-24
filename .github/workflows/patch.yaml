@@ -2,7 +2,7 @@ name: "Patch font"
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "38 16 * * 5" # Run at 16:38 UTC on Friday
+    - cron: "48 16 * * 5" # Run at 16:48 UTC on Friday
 
 permissions:
   contents: write
